@@ -1,0 +1,3 @@
+# subsequently load files like ...
+# ?- ['/src/sample.pl'].
+docker run -it -v `pwd`:/src swipl
